@@ -1,0 +1,472 @@
+.main-contact-caintanier{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  }
+  .main-contact-wrapper{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-right: 200px;
+  }
+  .left-form{
+  width: 28%;
+  height: 450px;
+  padding:30px 20px 30px 20px;
+  background: #3A7EF8;
+  box-shadow: 10px 0px 73px rgba(37, 123, 191, 0.2);
+  border-radius: 10px;
+  margin-top: 120px;
+  position: relative;
+  left :150px
+  }
+  .left-form h1{
+  width: 218px;
+  height: 40px;
+  margin: auto;
+  margin-left: 0px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+  }
+  .left-side-top-section{
+  }
+  .left-side-arrow{
+  width: 100px;
+  height: 4px;
+  background: #FBB03B;
+  margin-left: 15%;
+  }
+  .left-input1,.left-input2,.left-input3{
+      display: flex;
+      gap: 1rem;
+      height: 20%;
+      margin: 40px;
+      margin-left: 0px;
+      color:white;
+      width: 100%;
+  }
+  .left-input-section{
+      width: 100%;
+      margin-right: 20px;
+      height: 80%;padding-top: 10%;
+  }
+  .right-form{
+  width: 100%;
+  height: 680px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 18px 4px rgba(37, 123, 191, 0.2);
+  border-radius: 10px;
+  padding-left: 200px;
+  padding-top: 50px;
+  }
+  .right-form form{
+    width: 100%;
+    padding: 0px 50px 0px 0px;
+  }
+  .right-form h1{
+      width: 239px;
+      height: 40px;
+   margin-bottom: 0px;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      color: #202020;
+  }
+  .right-form p{
+  height: 40px;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40px;
+  color: #3A7EF8;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+  }
+  .right-form input{
+  width: 100%;
+  height: 80px;
+  padding-left: 50px;
+  background: #F4F4F4;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  .right-form button{
+  background: #3A7EF8;
+  width: 150px;
+  padding: 10px;
+  color: #F4F4F4;
+  margin-left: 40%;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 20px;
+  }
+  .right-form button:hover{
+    background-color: #FBB03B;
+    color: #F4F4F4;
+  }
+  @media only screen and (max-width: 480px) {
+    .main-contact-caintanier{
+        width: 100%;
+      display: flex;
+      flex-direction: row;
+      }
+      .main-contact-wrapper{
+          width: 100%;
+          margin: 0px;
+          display: unset;
+      }
+      .left-form{
+        width: 95%;
+        height: auto;
+        padding: 30px 20px 30px 20px;
+        margin-left: 12px;
+        background: hsl(219deg 66% 54% / 86%);
+        box-shadow: 10px 0px 73px rgb(37 123 191 / 20%);
+        border-radius: 10px 10px 10px 10px;
+        margin-top: -40px;
+        position: unset;
+      }
+      .left-form h1{
+      width: unset;
+      height: 40px;
+      margin: auto;
+      margin-left: 0px;
+      text-align: center;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      color: white;
+      }
+      .left-side-top-section{
+      }
+      .left-side-arrow{
+      width: 100px;
+      height: 4px;
+      background: #FBB03B;
+      margin-left:38%;
+      }
+      .left-input1,.left-input2,.left-input3{
+          display: flex;
+         justify-content: center;
+          height: 20%;
+          margin-top: 40px;
+          margin-bottom: 40px;
+          padding-left: 10px;
+          font-size: 12px;
+          font-weight: 500;
+          color:white;
+          width: 100%;
+      }
+      .left-input-section{
+          width: 100%;
+          margin-right: 20px;
+          height: 80%;padding-top: 10%;
+      }
+      .right-form{
+        width: 95%;
+        height: auto;
+        padding: 30px;
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: -50px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 18px 4px rgb(37 123 191 / 20%);
+        border-radius: 10px 10px 10px 10px;
+       padding-left: unset;
+      }
+      .right-form form {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        padding-left: 30px;
+    }
+      .right-form h1{
+        margin: auto;
+        margin-bottom: 0px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        color: #202020;
+      }
+      .right-form p{
+        height: auto;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #3A7EF8;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+      }
+      .right-form input{
+        width: 100%;
+        height: 50px;
+        background: #F4F4F4;
+        border-radius: 8px;
+        padding: 17px;
+      }
+      .right-form button{
+      background: #3A7EF8;
+      width: 150px;
+      padding: 10px;
+      border-radius: 4px;
+      color: #F4F4F4;
+      margin-left: 32%;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      margin-top: 20px;
+      }
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+  .main-contact-caintanier{
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  }
+  .main-contact-wrapper{
+      width: 100%;
+      margin: 0px;
+      display: unset;
+  }
+  .left-form{
+    width: 95%;
+    padding: 30px 20px 30px 20px;
+    margin-left: 12px;
+    background: hsl(219deg 66% 54% / 86%);
+    box-shadow: 10px 0px 73px rgb(37 123 191 / 20%);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: -40px;
+    position: unset;
+  }
+  .left-form h1{
+  width: unset;
+  height: 40px;
+  margin: auto;
+  margin-left: 0px;
+  text-align: center;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+  }
+  .left-side-top-section{
+  }
+  .left-side-arrow{
+  width: 100px;
+  height: 4px;
+  background: #FBB03B;
+  margin-left:38%;
+  }
+  .left-input1,.left-input2,.left-input3{
+      display: flex;
+      gap: 5rem;
+      padding-left: 50px;
+      height: 20%;
+      margin: 40px;
+      margin-left: 0px;
+      font-size: 13px;
+      font-weight: 500;
+      color:white;
+      width: 100%;
+  }
+  .left-input-section{
+      width: 100%;
+      margin-right: 20px;
+      height: 80%;padding-top: 10%;
+  }
+  .right-form{
+    width: 95%;
+    height: auto;
+    padding: 30px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px 4px rgb(37 123 191 / 20%);
+    border-radius: 10px 10px 10px 10px;
+   padding-left: unset;
+  }
+  .right-form form{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    padding-left: 30px;
+  }
+  .right-form h1{
+    margin: auto;
+    margin-bottom: 0px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #202020;
+  }
+  .right-form p{
+    height: auto;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #3A7EF8;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .right-form input{
+    width: 100%;
+    height: 50px;
+    background: #F4F4F4;
+    border-radius: 8px;
+    padding: 17px;
+  }
+  .right-form button{
+  background: #3A7EF8;
+  width: 150px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #F4F4F4;
+  margin-left: 35%;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 20px;
+  }
+  }
+@media screen and (min-width: 769px) and (max-width: 1600px) {  
+    .main-contact-caintanier{
+        margin-top: 100px;
+        margin-bottom: 100px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      }
+      .main-contact-wrapper{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          margin-right: 0px;
+      }
+      .left-form{
+        width: 35%;
+        height: 450px;
+        padding: 30px 20px 30px 20px;
+        background: #3A7EF8;
+        box-shadow: 10px 0px 73px rgb(37 123 191 / 20%);
+        border-radius: 10px;
+        margin-top: 120px;
+        position: relative;
+        left: 69px;
+        z-index: 1;
+      }
+      .left-form h1{
+      width: 218px;
+      height: 40px;
+      margin: auto;
+      margin-left: 30px;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      color: white;
+      }
+      .left-side-top-section{
+      }
+      .left-side-arrow{
+      width: 100px;
+      height: 2px;
+      background: #FBB03B;
+      margin-left: 30%;
+      }
+      .left-input1,.left-input2,.left-input3{
+          display: flex;
+          gap: 10px;
+          height: 20%;
+          font-size: 12px;
+          font-weight: 500;
+          margin: 40px;
+          margin-left: 0px;
+          color:white;
+          width: 100%;
+      }
+      .left-input-section{
+          width: 100%;
+          margin-right: 20px;
+          height: 80%;padding-top: 10%;
+      }
+      .right-form{
+        width: 100%;
+        height: auto;
+        padding: 20px 0px 40px 20px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 18px 4px rgb(37 123 191 / 20%);
+        border-radius: 10px;
+        padding-left: 100px;
+        padding-top: 50px;
+        position: relative;
+        left: -50px;
+      }
+      .right-form form{
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 20px;
+      }
+      .right-form h1{
+          width: 239px;
+          height: 40px;
+       margin-bottom: 0px;
+          font-family: 'Space Grotesk';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 40px;
+          color: #202020;
+      }
+      .right-form p{
+      height: 40px;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 40px;
+      color: #3A7EF8;
+      margin-bottom: 30px;
+      margin-top: 10px;
+      }
+      .right-form input{
+      width: 100%;
+      height: 70px;
+      padding-left: 50px;
+      background: #F4F4F4;
+      border-radius: 8px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      }
+      .right-form button{
+      background: #3A7EF8;
+      width: 120px;
+      border-radius: 2px;
+      padding: 10px;
+      color: #F4F4F4;
+      margin-left:37%;
+      font-family: 'Space Grotesk';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      margin-top: 20px;
+      }
+}

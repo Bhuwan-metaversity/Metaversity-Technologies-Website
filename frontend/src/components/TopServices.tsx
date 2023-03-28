@@ -4,6 +4,7 @@ import { Box } from "@mui/system";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import React from "react";
 import { GatsbyImage } from "gatsby-plugin-image";
+import Fade from 'react-reveal/Fade';
 
 function TopServices() {
   const { allStrapiArticle } = useStaticQuery(graphql`
@@ -40,6 +41,7 @@ function TopServices() {
   `);
   const media = useMediaQuery("(min-width:600px)");
   return (
+
     <Box id="top">
       <Typography
         variant="h3"
@@ -60,6 +62,7 @@ function TopServices() {
               display: { xs: "block", md: "flex" },
             }}
           >
+                <Fade right>
             <Box my={6}>
               <GatsbyImage
                 image={item.cover.localFile.childImageSharp.gatsbyImageData}
@@ -72,8 +75,12 @@ function TopServices() {
                   borderRadius: "24px",
                 }}
               />
+             
             </Box>
+            </Fade>
+        
             <Box margin={"auto"} flex={1} px={"5%"} textAlign="center">
+
               <Typography variant="h3" fontSize={"28px"}>
                 {item.title}
               </Typography>
@@ -81,15 +88,30 @@ function TopServices() {
                 {item.childrenStrapiArticleDescriptionTextnode[0].description}
               </Typography>
               <Link to={"service/" + item?.slug}>
-                <Button variant="contained" endIcon={<ArrowForward />}>
+                <Button
+                  variant="contained"
+                  sx={{
+                    px: 3,
+                    py: 1,
+                    ":hover": {
+                      bgcolor: "#FBB03B", // theme.palette.primary.main
+                      color: "white",
+                    },
+                  }}
+                  endIcon={<ArrowForward />}
+                >
                   Read More
                 </Button>
               </Link>
+           
             </Box>
+       
+          
           </Box>
         );
       })}
     </Box>
+
   );
 }
 

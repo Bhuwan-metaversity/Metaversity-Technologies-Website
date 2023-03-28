@@ -44,10 +44,10 @@ const theme = createTheme({
   },
 });
 
-const Layout = ({ children }) => {
+const Layout = ({ children, location }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Header />
+      <Header location={location} />
       <main>{children}</main>
       <Footer />
     </ThemeProvider>

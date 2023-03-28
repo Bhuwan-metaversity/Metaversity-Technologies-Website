@@ -8,19 +8,22 @@ import ideate_Img from "../images/ideate-img.png"
 import innovate_Img from "../images/innovate-img.png"
 import implement_Img from "../images/implement-img.png"
 import mission_Img from "../images/mission-img.png"
-import background_img from "../images/background-img.png"
 import FooterDetails from "../components/FooterDetails";
-import OurTeam from "../components/OurTeam/OurTeam";
-import member1 from '../images/our-team.png'
+import Flip from 'react-reveal/Flip';
+import Seo from "../components/seo";
 
 
+ 
 
-const AboutUs = () => {
+
+const AboutUs = ({location}) => {
   return (
-    <Layout>
+    <Layout location={location}>
+       <Seo seo={{metaTitle:"About"}} />
       <>
         <div className="hero-caintanier1">
           <h1>About Us</h1>
+          {/* <img src={AboutUsBackgroundImg}/> */}
         </div>
         <div className="hero-caintanier2">
           <div className="hero-wrapper2">
@@ -68,21 +71,29 @@ const AboutUs = () => {
         <div className="main-section2">
           <h1>Problems We’ll Help You Solve</h1>
           <div className="main-section2-divs">
+          <Flip left>
             <div className="main-section2-leftDiv">
+    
               <img src={ideate_Img} />
               <h1>IDEATE</h1>
               <p >Ideation is what makes the foundation for creating something new and letting the world let go of the conventionalities.</p>
+          
             </div>
+            </Flip>
+            <Flip left>
             <div className="main-section2-midDiv">
               <img src={innovate_Img} />
               <h1>INNOVATE</h1>
               <p >Ideation is what makes the foundation for creating something new and letting the world let go of the conventionalities.</p>
             </div>
+            </Flip>
+            <Flip left>
             <div className="main-section2-rightDiv">
               <img src={implement_Img} />
               <h1>IMPLEMENT</h1>
               <p >Ideation is what makes the foundation for creating something new and letting the world let go of the conventionalities.</p>
             </div>
+            </Flip>
           </div>
 
         </div>
@@ -116,7 +127,6 @@ const AboutUs = () => {
           <p>Before getting started, let’s get to know us. We are an innovative, technology-driven, and research-oriented automation and IT solution provider who understands the complexities of running a modern enterprise. We are Metaverse, just like the computing instrument. So everything we deliver is the outcome of our data-intensive insights coupled with a rich experience of 1 year.</p>
 
         </div>
-
 
         {/* <div className="main-section5">
           <h1>Our <span>Team</span></h1>

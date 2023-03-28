@@ -128,6 +128,10 @@ function RequestCallButton({ isWhite }: { isWhite?: boolean }) {
         sx={{
           px: 3,
           py: 1,
+          ':hover': {
+            bgcolor: '#FBB03B', // theme.palette.primary.main
+            color: 'white',
+          },
           bgcolor: isWhite ? "white" : "",
         }}
         startIcon={isWhite ? <CallBlueIcon /> : <CallIcon />}

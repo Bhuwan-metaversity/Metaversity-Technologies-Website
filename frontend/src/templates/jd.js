@@ -1,13 +1,7 @@
 import React, { useState } from "react";
-import "../components/careers.css";
-import { color } from "@mui/system";
-import DrawerAppBar from "../components/header";
+import "../styles/careers.css";
 import Layout from "../components/layout";
-import { Toolbar } from "@mui/material";
-import FooterDetails from "../components/FooterDetails";
-import JobCard from "../components/careers/jobCard";
 import { graphql } from "gatsby";
-import Modalpopup from "../components/modal/Modalpopup";
 import Jobdeatils from "../components/jobDeatils/Jobdeatils";
 
 
@@ -21,11 +15,13 @@ const JD = ({ data }) => {
      </Layout>
   );
 };
+
+
 export const query = graphql`
   query ($slug: String) {
     strapiJob(id: {eq: $slug}) {
       Location
-      slug
+        slug
       createdAt
       jobRole 
       JD {
@@ -56,10 +52,7 @@ export const query = graphql`
     }
   }
 `;
+
+
+
 export default JD;
-
-
-
-
-
-

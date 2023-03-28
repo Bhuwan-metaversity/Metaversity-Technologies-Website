@@ -1,0 +1,16 @@
+.job-Deatils-Button:hover{
+    background-color: #FBB03B;
+    color: white !important;
+    transform: scale(1.03);
+    
+}
+
+.muibutton:hover{
+    transform: scale(1.03);
+    background-color: #FBB03B
+    
+}
+
+
+
+

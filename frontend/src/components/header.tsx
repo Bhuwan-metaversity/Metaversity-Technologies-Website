@@ -1,6 +1,7 @@
 // import * as React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby";
-import MetaLogo from "../images/new-png.png";
+// import MetaLogo from "../images/MV LOGO.png";
+import MetaLogo from "../images/metaversityLogo.png"
 import { Collapse, Menu, MenuItem, useMediaQuery } from "@mui/material";
 import RequestCallButton from "./requestCallButton";
 import { Height, KeyboardArrowDown } from "@mui/icons-material";
@@ -88,7 +89,8 @@ import { Height, KeyboardArrowDown } from "@mui/icons-material";
 
 // export default Header
 
-import * as React from "react";
+// import * as React from "react";
+import React, { useEffect, useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
@@ -102,6 +104,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { useTheme } from "@emotion/react";
+import { useLocation } from "react-router-dom";
 
 interface Props {
   /**
@@ -109,14 +112,17 @@ interface Props {
    * You won't need it on your project.
    */
   window?: () => Window;
+  location?: Location;
 }
 
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Contact"];
 export default function DrawerAppBar(props: Props) {
+  const [current, setCurrent] = useState(0);
   const theme = useTheme();
-  console.log(theme,"theme")
-  const { window } = props;
+  console.log(theme, "theme");
+  const { window, location } = props;
+  console.log(location, "locarion");
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -128,8 +134,8 @@ export default function DrawerAppBar(props: Props) {
         nodes {
           name
           id
-        }   
-      }  
+        }
+      }
       allStrapiArticle {
         nodes {
           ServiceName
@@ -141,6 +147,7 @@ export default function DrawerAppBar(props: Props) {
   `);
   const [hoverOn, setHoverOn] = React.useState("");
   const [open, setOpen] = React.useState(false);
+
   const anchorEl = React.useRef();
   const handleClick = (event) => {
     setOpen(true);
@@ -165,32 +172,32 @@ export default function DrawerAppBar(props: Props) {
         expandable: false,
       },
       {
-        to: "#top",
+        to: "/Services",
         name: "Services",
-        expandable: true,
-        sublinks: allStrapiArticle?.nodes?.map(({ slug, ServiceName }) => ({
-          to: "/service/" + slug,
-          name: ServiceName,
-          expandable: false,
-        })),
+        expandable: false,
+        // sublinks: allStrapiArticle?.nodes?.map(({ slug, ServiceName }) => ({
+        //   to: "/service/" + slug,
+        //   name: ServiceName,
+        //   expandable: false,
+        // })),
       },
       {
-        to: "#industries",
-        name: "Industry",
-        expandable: true,
-        sublinks: allStrapiIndustry?.nodes?.map(({ slug, name }) => ({
-          to: "#",
-          name,
-          expandable: false,
-        })),
+        to: "/Product",
+        name: "Product",
+        expandable: false,
+        // sublinks: allStrapiIndustry?.nodes?.map(({ slug, name }) => ({
+        //   to: "#",
+        //   name,
+        //   expandable: false,
+        // })),
       },
       {
-        to: "/careers",
+        to: "/Careers",
         name: "Careers",
         expandable: false,
       },
       {
-        to: "/contact-us",
+        to: "/Contact-us",
         name: "Contact Us",
         expandable: false,
       },
@@ -209,7 +216,10 @@ export default function DrawerAppBar(props: Props) {
         {links.map(({ to, name, expandable, sublinks }) => (
           <>
             <ListItem key={to + name} disablePadding>
-              <ListItemButton href={to} sx={{ textAlign: "center" }}>
+              <ListItemButton
+                href={to}
+                sx={{ textAlign: "center", ":hover": { color: "red" } }}
+              >
                 <ListItemText primary={name} />
               </ListItemButton>
             </ListItem>
@@ -228,9 +238,17 @@ export default function DrawerAppBar(props: Props) {
 
   const container =
     window !== undefined ? () => window().document.body : undefined;
-
+  // const {pathname} = useLocation()
+  useEffect(() => {
+    links.forEach((item, index) => {
+      if (location?.pathname.includes(item.to)) {
+        setCurrent(index);
+      }
+    });
+  }, [location?.pathname]);
+  console.log(location,"path")
   return (
-    <Box sx={{ display: "flex",  }}>
+    <Box sx={{ display: "flex" }}>
       <AppBar component="nav" elevation={0}>
         <Toolbar sx={{ background: "#fff" }}>
           <IconButton
@@ -271,12 +289,19 @@ export default function DrawerAppBar(props: Props) {
               zIndex={1000000}
               sx={{ display: { xs: "none", lg: "block" }, mx: "auto" }}
             >
-              {links.map(({ to, name, expandable, sublinks }) => (
+              {links.map(({ to, name, expandable, sublinks }, index) => (
                 <Link
                   // ref={anchorEl}
                   key={`links-${to + name}`}
+                  className="top-link-hover"
                   onMouseOver={handleClick}
+                  // style={styles.button}
+                  // onMouseEnter={() => setHover(true)}
+                  // onMouseLeave={() => setHover(false)}
+
                   style={{
+                    color: current === index ? "#FBB03B" : "",  
+        
                     margin: 20,
                     display: "inline-block",
                     fontWeight: 400,
@@ -343,7 +368,7 @@ export default function DrawerAppBar(props: Props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box component="main" >
+      <Box component="main">
         <Toolbar />
       </Box>
     </Box>

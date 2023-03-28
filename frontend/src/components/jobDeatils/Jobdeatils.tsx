@@ -11,6 +11,10 @@ import ReactMarkdown from "react-markdown";
 import StyledMarkdown from "./MarkDown";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import LeftSide from "./LeftSide";
+import HeadShake from 'react-reveal/HeadShake';
+import Fade from 'react-reveal/Fade';
+
+
 
 import { Button } from "@mui/material";
 import { Link } from "gatsby";
@@ -38,6 +42,7 @@ function Jobdeatils({ data }) {
           <div className="jd-inner-wrapper">
             <div className="top-section">
               <h1>JOB DETAIL</h1>
+              
               <div className="top-section-detail">
                 <div>
                   <h2>{data.jobRole} </h2>
@@ -48,6 +53,14 @@ function Jobdeatils({ data }) {
                 <div>
                   <Button
                     onClick={handleClickOpen}
+                    sx={{
+                 
+                      '&:hover': {
+                        bgcolor: '#FBB03B !important',
+                        boxShadow: 'none',
+                      }
+                     
+                    }}
                     style={{
                       // width: "20%",
                       //  margin:"0px 0px 0px 880px",
@@ -67,13 +80,15 @@ function Jobdeatils({ data }) {
               </div>
               <hr />
             </div>
-
+            <HeadShake>
+    
             <div
               className="grid-container"
               style={{
                 height: "auto",
               }}
             >
+               
               <div className="left-sides">
                 <div className="left-sides-left-innerdiv">
                   <img src={salary} id="img1"></img>
@@ -114,7 +129,10 @@ function Jobdeatils({ data }) {
                 </div>
               </div>
             </div>
+            </HeadShake>
+           
 
+            <Fade left>
             <div className="jd2">
               <h2>Job Description - </h2>
               {/* {console.log(data.JD.data?.JD,"jd")} */}
@@ -135,6 +153,9 @@ function Jobdeatils({ data }) {
               activities, qualifications and skills for a role. Also known as a */}
               {/* </StyledMarkdown> */}
             </div>
+            </Fade>
+
+            <Fade right>
             <div className="responsibility">
               <h3>Responsibillities - </h3>
 
@@ -155,7 +176,9 @@ function Jobdeatils({ data }) {
               <li>. Add any other relevant responsibilities here</li> 
               </ul> */}
             </div>
+            </Fade>
 
+            <Fade left>
             <div className="skills">
               <h1>skills -</h1>
               {/* {data.skills.data?.skills} */}
@@ -170,6 +193,7 @@ function Jobdeatils({ data }) {
               </li>
               </ul> */}
             </div>
+                 </Fade>
           </div>
         </div>
       </div>

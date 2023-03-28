@@ -2,6 +2,9 @@ import { Box, Grid, Typography } from "@mui/material"
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
+import Flip from 'react-reveal/Flip';
+
+
 
 function Industies() {
   const { allStrapiIndustry } = useStaticQuery(graphql`
@@ -50,6 +53,8 @@ function Industies() {
               borderRadius: "16px",
             }}
           >
+                   <Flip right>
+       
             <GatsbyImage
               alt={"adsfjka"}
               // layout="fill"
@@ -60,6 +65,8 @@ function Industies() {
               // objectFit={"fill"}
               image={coverSquare.localFile.childImageSharp.gatsbyImageData}
             />
+            </Flip>
+    
 
             <Typography
               position={"absolute"}
@@ -69,6 +76,7 @@ function Industies() {
             >
               {name}
             </Typography>
+            
           </Grid>
         ))}
       </Grid>

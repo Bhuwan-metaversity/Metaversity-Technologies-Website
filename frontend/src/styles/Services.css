@@ -1,0 +1,1761 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nft-hero-section-container {
+    width: 100%;
+    background-color: rgb(red, green, blue);
+  }
+  
+  .nft-development .wraper {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 46px 40px 44px;
+  }
+  .nft-development h1 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #252525;
+    text-align: justify;
+    margin-bottom: unset;
+  }
+  
+  .nft-development h2 {
+    margin-top: 20px;
+    text-align: justify;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    text-align: justify;
+    color: #252525;
+  }
+  
+  .nft-development p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 20px;
+    height: auto;
+    color: #18191b;
+  }
+  
+  .nft-development-left-side {
+    width: 50%;
+  }
+  .nft-development-right-side {
+    width: 50%;
+    margin-left: 20px;
+  }
+  
+  .nft-development-right-side img {
+    height: 86%;
+    margin-left: auto;
+  }
+  
+  .why-to-choose-nft {
+    margin-inline: 3%;
+    display: flex;
+    margin-top: 20px;
+  }
+  .why-to-choose-nft .left-side {
+    width: 50%;
+  }
+  .why-to-choose-nft .left-side img {
+    height: 85%;
+    width: 100%;
+    margin-left: auto;
+  }
+  .why-to-choose-nft .right-side {
+    width: 50%;
+    margin-left: 20px;
+  }
+  .why-to-choose-nft-btn {
+    margin-left: 83%;
+    margin-top: -121px;
+  }
+  .why-to-choose-nft .right-side h1 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: unset;
+    text-align: right;
+    color: #252525;
+  }
+  .why-to-choose-nft .right-side p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #18191b;
+  }
+  .ownership-of-digital {
+    margin-inline: 3%;
+  }
+  
+  .ownership-of-digital h1 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: unset;
+    color: #252525;
+  }
+  .ownership-of-digital p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #18191b;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  .card:hover {
+    transform: scale(1.04) !important;
+    box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff !important;
+  }
+  .cards img {
+    margin: auto;
+  }
+  .cards h1 {
+    height: 35px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: unset;
+    text-align: center;
+    color: #3a7ef8;
+  }
+  .cards p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #18191b;
+  }
+  .card {
+    padding: 10px;
+    width: 25%;
+    background: #edf3ff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+  }
+  
+  .nft-develoipment-process {
+    margin-inline: 3%;
+    padding: 50px;
+  }
+  .nft-development-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .nft-develoipment-process h1 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
+  }
+  .nft-develoipment-process p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #18191b;
+  }
+  .mid {
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+  }
+  .middle img {
+    height: 100%;
+    margin-top: 32px;
+    width: 1000px;
+  }
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .right p {
+    text-align: right;
+  }
+  .left P {
+    text-align: left;
+  }
+  .left-top h2,
+  .left-bottom h2 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: left;
+    color: #3a7ef8;
+  }
+  .right-top h4,
+  .right-bottom h5 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: right;
+    color: #3a7ef8;
+  }
+  .bottom {
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 45px;
+  }
+  .bottom h6 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #3a7ef8;
+  }
+  .bottom p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    text-align: center;
+  }
+  .bottom Button {
+    margin-left: 21%;
+    margin-top: 30px;
+  }
+  .our-patner {
+    padding: 40px;
+  }
+  .our-patner h1 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 108%;
+    color: #252525;
+    text-align: center;
+  }
+  .our-blogs {
+    padding: 40px;
+    background: #3a7ef8;
+  }
+  .Blogs {
+    display: flex;
+    gap: 10px;
+  }
+  .Blogs img:hover {
+    box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+    transform: scale(1.02);
+  }
+  .our-blogs h1 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .our-blogs p {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+  }
+  .inner-card {
+    box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+    transform: scale(1.02);
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nft-hero-section-container {
+      width: 100%;
+      background-color: rgb(red, green, blue);
+    }
+    .nft-development {
+      margin-inline: 3%;
+    }
+    .nft-development .wraper {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 0px 0px 0px;
+    }
+    .nft-development h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      color: #252525;
+      text-align: center;
+      margin-bottom: unset;
+    }
+    .nft-development h2 {
+      margin-top: 20px;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      text-align: center;
+      color: #252525;
+    }
+    .nft-development p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: justify;
+      margin-top: 20px;
+      height: auto;
+      color: #18191b;
+    }
+  
+    .nft-development-left-side {
+      width: 100%;
+      margin-top: 40px;
+    }
+    .nft-development-right-side {
+      width: 100%;
+      margin-left: unset;
+    }
+  
+    .nft-development-right-side img {
+      height: 86%;
+      margin-inline: -13px;
+      padding-top: 20px;
+    }
+  
+    .why-to-choose-nft {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 30px;
+    }
+    .why-to-choose-nft .left-side {
+      width: 100%;
+    }
+    .why-to-choose-nft .left-side img {
+      width: 100%;
+      margin-left: unset;
+    }
+    .why-to-choose-nft .right-side {
+      width: 100%;
+      margin-left: unset;
+      margin-top: 30px;
+    }
+    .why-to-choose-nft .right-side h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: unset;
+      text-align: center;
+    }
+    .why-to-choose-nft-btn {
+      text-align: center;
+      margin-left: unset;
+      margin-top: -20px;
+    }
+    .why-to-choose-nft .right-side p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 20px;
+      line-height: 30px;
+      text-align: justify;
+      color: #18191b;
+    }
+    .ownership-of-digital {
+      margin-inline: 3%;
+      margin-top: -20px;
+    }
+    .ownership-of-digital h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: unset;
+      color: #252525;
+    }
+    .ownership-of-digital p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      padding: 10px;
+      text-align: justify;
+      color: #18191b;
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      padding: 0px;
+      margin-bottom: 0px;
+    }
+    .card:hover {
+      transform: scale(1.04) IM !important;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff !important;
+    }
+    .cards img {
+      margin: auto;
+    }
+    .cards h1 {
+      height: 35px;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: unset;
+      text-align: center;
+      color: #3a7ef8;
+    }
+    .cards p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: justify;
+      color: #18191b;
+    }
+    .card {
+      padding: 10px;
+      width: 100%;
+      background: #edf3ff;
+      border-radius: 10px;
+      margin-top: 10px;
+      padding-bottom: 20px;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+    }
+  
+    .nft-develoipment-process {
+      margin-inline: 3%;
+      padding: 50px;
+    }
+    .nft-develoipment-process h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      color: #252525;
+    }
+    .nft-develoipment-process p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: justify;
+      color: #18191b;
+    }
+    .mid {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      gap: 10px;
+    }
+    .middle img {
+      height: 100%;
+      margin-top: 32px;
+      width: 1000px;
+      display: none;
+    }
+    .left,
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .right p {
+      text-align: justify;
+    }
+    .left P {
+      text-align: justify;
+    }
+    .left-top h2,
+    .left-bottom h2 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .right-top h4,
+    .right-bottom h5 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .bottom {
+      width: 100%;
+      margin-left: unset;
+      margin-top: 10px;
+    }
+    .bottom h6 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .bottom p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: justify;
+    }
+    .bottom Button {
+      margin-left: 21%;
+      margin-top: 30px;
+    }
+  
+    .our-patner {
+      padding: unset;
+      margin: 20px;
+    }
+    .our-patner h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 108%;
+      margin-bottom: unset;
+      color: #252525;
+      text-align: center;
+    }
+    .our-blogs {
+      padding: 20px;
+      background: #3a7ef8;
+    }
+    .Blogs {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .Blogs img:hover {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+    .our-blogs h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .our-blogs p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: white;
+    }
+    .inner-card {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .nft-hero-section-container {
+      width: 100%;
+      background-color: rgb(red, green, blue);
+    }
+    .nft-development {
+      margin-inline: 3%;
+    }
+    .nft-development .wraper {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 0px 0px 0px;
+    }
+    .nft-development h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      color: #252525;
+      text-align: center;
+      margin-bottom: unset;
+    }
+    .nft-development h2 {
+      margin-top: 20px;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      text-align: center;
+      color: #252525;
+    }
+    .nft-development p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: justify;
+      margin-top: 20px;
+      height: auto;
+      color: #18191b;
+    }
+    .nft-development-left-side {
+      width: 100%;
+      margin-top: 40px;
+    }
+    .nft-development-right-side {
+      width: 100%;
+      margin-left: unset;
+    }
+    .nft-development-right-side img {
+      height: 86%;
+      margin-inline: -13px;
+      padding-top: 20px;
+    }
+    .why-to-choose-nft {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 30px;
+    }
+    .why-to-choose-nft .left-side {
+      width: 100%;
+      margin-top: -29px;
+    }
+    .why-to-choose-nft .left-side img {
+      width: 100%;
+      margin-left: unset;
+    }
+    .why-to-choose-nft .right-side {
+      width: 100%;
+      margin-left: unset;
+      margin-top: 30px;
+    }
+    .why-to-choose-nft .right-side h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: unset;
+      text-align: center;
+    }
+    .why-to-choose-nft-btn {
+      text-align: center;
+      margin-left: unset;
+      margin-top: -20px;
+    }
+    .why-to-choose-nft .right-side p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 20px;
+      line-height: 30px;
+      text-align: justify;
+      color: #18191b;
+    }
+    .ownership-of-digital {
+      margin-inline: 3%;
+      margin-top: -20px;
+    }
+    .ownership-of-digital h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: unset;
+      color: #252525;
+    }
+    .ownership-of-digital p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      padding: 10px;
+      text-align: justify;
+      color: #18191b;
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      padding: 0px;
+      margin-bottom: 0px;
+    }
+    .card:hover {
+      transform: scale(1.04) !important;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff !important;
+    }
+    .cards img {
+      margin: auto;
+    }
+    .cards h1 {
+      height: 35px;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: unset;
+      text-align: center;
+      color: #3a7ef8;
+    }
+    .cards p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: justify;
+      color: #18191b;
+    }
+    .card {
+      padding: 10px;
+      width: 100%;
+      background: #edf3ff;
+      border-radius: 10px;
+      margin-top: 10px;
+      padding-bottom: 20px;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+    }
+    .nft-develoipment-process {
+      margin-inline: 3%;
+      padding: 50px;
+    }
+    .nft-develoipment-process h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: center;
+      color: #252525;
+    }
+    .nft-develoipment-process p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: justify;
+      color: #18191b;
+    }
+    .mid {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      gap: 10px;
+    }
+    .middle img {
+      height: 100%;
+      margin-top: 32px;
+      width: 1000px;
+      display: none;
+    }
+    .left,
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .right p {
+      text-align: justify;
+    }
+    .left P {
+      text-align: justify;
+    }
+    .left-top h2,
+    .left-bottom h2 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .right-top h4,
+    .right-bottom h5 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .bottom {
+      width: 100%;
+      margin-left: unset;
+      margin-top: 10px;
+    }
+    .bottom h6 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .bottom p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: justify;
+    }
+    .bottom Button {
+      margin-left: 21%;
+      margin-top: 30px;
+    }
+    .our-patner {
+      padding: unset;
+      margin: 20px;
+    }
+    .our-patner h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 108%;
+      margin-bottom: unset;
+      color: #252525;
+      text-align: center;
+    }
+    .our-blogs {
+      padding: 10px;
+      background: #3a7ef8;
+    }
+    .Blogs {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+    .Blogs img:hover {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+    .our-blogs h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .our-blogs p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: white;
+    }
+    .inner-card {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .nft-hero-section-container {
+      width: 100%;
+      background-color: rgb(red, green, blue);
+    }
+    .nft-development .wraper {
+      display: flex;
+      flex-direction: row;
+      padding: 40px 20px 40px 20px;
+    }
+    .nft-development h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      color: #252525;
+      text-align: justify;
+      margin-bottom: unset;
+    }
+    .nft-development h2 {
+      margin-top: 20px;
+      text-align: justify;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      text-align: justify;
+      color: #252525;
+    }
+    .nft-development p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      margin-top: 20px;
+      height: auto;
+      color: #18191b;
+    }
+    .nft-development-left-side {
+      width: 50%;
+    }
+    .nft-development-right-side {
+      width: 50%;
+      margin-left: 20px;
+    }
+    .nft-development-right-side img {
+      height: 86%;
+      margin-left: auto;
+    }
+    .why-to-choose-nft {
+      margin-inline: 3%;
+      display: flex;
+      margin-top: 20px;
+    }
+    .why-to-choose-nft .left-side {
+      width: 50%;
+    }
+    .why-to-choose-nft .left-side img {
+      height: 85%;
+      width: 100%;
+      margin-left: auto;
+      height: 100%;
+    }
+    .why-to-choose-nft .right-side {
+      width: 50%;
+      margin-left: 20px;
+    }
+    .why-to-choose-nft-btn {
+      margin-left: 70%;
+      margin-top: -29px;
+    }
+    .why-to-choose-nft .right-side h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      margin-bottom: unset;
+      text-align: right;
+      color: #252525;
+    }
+    .why-to-choose-nft .right-side p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 20px;
+      line-height: 30px;
+      text-align: right;
+      color: #18191b;
+    }
+    .ownership-of-digital {
+      margin-inline: 3%;
+    }
+    .ownership-of-digital h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: unset;
+      color: #252525;
+    }
+    .ownership-of-digital p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+      color: #18191b;
+    }
+    .cards {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+      padding: unset;
+      margin: 20px 0px 30px 0px;
+    }
+    .card:hover {
+      transform: scale(1.04) !important;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff !important;
+    }
+    .cards img {
+      margin: auto;
+      height: 20%;
+    }
+    .cards h1 {
+      height: 35px;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: unset;
+      text-align: center;
+      color: #3a7ef8;
+    }
+    .cards p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      padding: unset;
+      text-align: center;
+      color: #18191b;
+    }
+    .card {
+      padding: unset;
+      width: 32%;
+      background: #edf3ff;
+      border-radius: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+    }
+    .nft-develoipment-process {
+      margin: 40px;
+      padding: unset;
+    }
+    .nft-development-button {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .nft-develoipment-process h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #252525;
+    }
+    .nft-develoipment-process p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #18191b;
+    }
+    .mid {
+      display: flex;
+      margin-top: 30px;
+      gap: 10px;
+    }
+    .middle img {
+      height: 100%;
+      margin-top: 32px;
+      width: 1000px;
+    }
+    .left,
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .right p {
+      text-align: right;
+    }
+    .left P {
+      text-align: left;
+    }
+    .left-top h2,
+    .left-bottom h2 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .right-top h4,
+    .right-bottom h5 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: right;
+      color: #3a7ef8;
+    }
+    .bottom {
+      width: 37%;
+      margin-left: 30%;
+      margin-top: 45px;
+    }
+    .bottom h6 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      color: #3a7ef8;
+    }
+    .bottom p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: justify;
+      text-align: center;
+    }
+    .bottom Button {
+      margin-left: 21%;
+      margin-top: 30px;
+    }
+    .our-patner {
+      padding: 20px;
+    }
+    .our-patner h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 108%;
+      color: #252525;
+      text-align: center;
+    }
+    .our-blogs {
+      padding: 20px;
+      background: #3a7ef8;
+    }
+    .Blogs {
+      display: flex;
+      gap: 10px;
+    }
+    .Blogs img:hover {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+    .our-blogs h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .our-blogs p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: white;
+    }
+    .inner-card {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .nft-hero-section-container {
+      width: 100%;
+      background-color: rgb(red, green, blue);
+    }
+    .nft-development .wraper {
+      display: flex;
+      flex-direction: row;
+      padding: 40px 20px 40px 20px;
+    }
+    .nft-development h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      color: #252525;
+      text-align: justify;
+      margin-bottom: unset;
+    }
+    .nft-development h2 {
+      margin-top: 20px;
+      text-align: justify;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      text-align: justify;
+      color: #252525;
+    }
+    .nft-development p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+      margin-top: 20px;
+      height: auto;
+      color: #18191b;
+    }
+    .nft-development-left-side {
+      width: 50%;
+    }
+    .nft-development-right-side {
+      width: 50%;
+      margin-left: 20px;
+    }
+    .nft-development-right-side img {
+      height: 100%;
+      margin-left: auto;
+    }
+    .why-to-choose-nft {
+      margin-inline: 3%;
+      display: flex;
+      margin-top: 20px;
+    }
+    .why-to-choose-nft .left-side {
+      width: 50%;
+    }
+    .why-to-choose-nft .left-side img {
+      height: auto;
+      width: 100%;
+      margin-left: auto;
+    }
+    .why-to-choose-nft .right-side {
+      width: 50%;
+      margin-left: 20px;
+    }
+    .why-to-choose-nft-btn {
+      margin-left: 77%;
+      margin-top: 14px;
+    }
+    .why-to-choose-nft .right-side h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      margin-bottom: unset;
+      text-align: right;
+      color: #252525;
+    }
+    .why-to-choose-nft .right-side p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      margin-top: 20px;
+      line-height: 30px;
+      text-align: right;
+      color: #18191b;
+    }
+    .ownership-of-digital {
+      margin-inline: 3%;
+    }
+    .ownership-of-digital h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: unset;
+      color: #252525;
+    }
+    .ownership-of-digital p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+      color: #18191b;
+    }
+    .cards {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: center;
+      padding: unset;
+      margin: 20px 0px 30px 0px;
+    }
+    .card:hover {
+      transform: scale(1.04) !important;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff !important;
+    }
+    .cards img {
+      margin: auto;
+      height: 20%;
+    }
+    .cards h1 {
+      height: 35px;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: unset;
+      text-align: center;
+      color: #3a7ef8;
+    }
+    .cards p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      padding: unset;
+      text-align: center;
+      color: #18191b;
+    }
+    .card {
+      padding: unset;
+      width: 32%;
+      background: #edf3ff;
+      border-radius: 10px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+    }
+    .nft-develoipment-process {
+      margin: 40px;
+      padding: unset;
+    }
+    .nft-development-button {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .nft-develoipment-process h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #252525;
+    }
+    .nft-develoipment-process p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #18191b;
+    }
+    .mid {
+      display: flex;
+      margin-top: 30px;
+      gap: 10px;
+    }
+    .middle img {
+      height: 100%;
+      margin-top: 32px;
+      width: 1000px;
+    }
+    .left,
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .right p {
+      text-align: right;
+    }
+    .left P {
+      text-align: left;
+    }
+    .left-top h2,
+    .left-bottom h2 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .right-top h4,
+    .right-bottom h5 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: right;
+      color: #3a7ef8;
+    }
+    .bottom {
+      width: 37%;
+      margin-left: 30%;
+      margin-top: 45px;
+    }
+    .bottom h6 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      color: #3a7ef8;
+    }
+    .bottom p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: justify;
+      text-align: center;
+    }
+    .bottom Button {
+      margin-left: 21%;
+      margin-top: 30px;
+    }
+    .our-patner {
+      padding: 20px;
+    }
+    .our-patner h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 108%;
+      color: #252525;
+      text-align: center;
+    }
+    .our-blogs {
+      padding: 20px;
+      background: #3a7ef8;
+    }
+    .Blogs {
+      display: flex;
+      gap: 10px;
+    }
+    .Blogs img:hover {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+    .our-blogs h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .our-blogs p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: white;
+    }
+    .inner-card {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .nft-hero-section-container {
+      width: 100%;
+      background-color: rgb(red, green, blue);
+    }
+    .nft-development .wraper {
+      display: flex;
+      flex-direction: row;
+      padding: 70px 46px 40px 44px;
+    }
+    .nft-development h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      color: #252525;
+      text-align: justify;
+      margin-bottom: unset;
+    }
+  
+    .nft-development h2 {
+      margin-top: 20px;
+      text-align: justify;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19px;
+      text-align: justify;
+      color: #252525;
+    }
+    .nft-development p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: left;
+      margin-top: 20px;
+      height: auto;
+      color: #18191b;
+    }
+    .nft-development-left-side {
+      width: 50%;
+    }
+    .nft-development-right-side {
+      width: 50%;
+      margin-left: 20px;
+    }
+    .nft-development-right-side img {
+      height: 86%;
+      margin-left: auto;
+    }
+    .why-to-choose-nft {
+      margin-inline: 3%;
+      display: flex;
+      margin-top: 20px;
+    }
+    .why-to-choose-nft .left-side {
+      width: 50%;
+    }
+    .why-to-choose-nft .left-side img {
+      height: 85%;
+      width: 100%;
+      margin-left: auto;
+    }
+    .why-to-choose-nft .right-side {
+      width: 50%;
+      margin-left: 20px;
+    }
+    .why-to-choose-nft-btn {
+      margin-left: 79%;
+      margin-top: -33px;
+    }
+    .why-to-choose-nft .right-side h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      margin-bottom: unset;
+      text-align: right;
+      color: #252525;
+    }
+    .why-to-choose-nft .right-side p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      margin-top: 20px;
+      line-height: 30px;
+      text-align: right;
+      color: #18191b;
+    }
+    .ownership-of-digital {
+      margin-inline: 3%;
+      margin-top: -29px;
+    }
+    .ownership-of-digital h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: unset;
+      color: #252525;
+    }
+    .ownership-of-digital p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      padding: 10px;
+      text-align: center;
+      color: #18191b;
+    }
+    .cards {
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+      justify-content: center;
+      padding: 20px 0px 20px 0px;
+      margin-bottom: 20px;
+    }
+    .card:hover {
+      transform: scale(1.04) !important;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff !important;
+    }
+    .cards img {
+      margin: auto;
+    }
+    .cards h1 {
+      height: 35px;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: unset;
+      text-align: center;
+      color: #3a7ef8;
+    }
+    .cards p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      color: #18191b;
+    }
+    .card {
+      padding: 10px;
+      width: 25%;
+      background: #edf3ff;
+      border-radius: 10px;
+      padding-bottom: 20px;
+      box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+    }
+    .nft-develoipment-process {
+      margin-inline: 3%;
+      padding: 50px;
+    }
+    .nft-development-button {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .nft-develoipment-process h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      color: #252525;
+    }
+    .nft-develoipment-process p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #18191b;
+    }
+    .mid {
+      display: flex;
+      margin-top: 40px;
+      gap: 50px;
+    }
+    .middle img {
+      height: 100%;
+      margin-top: 32px;
+      width: 1000px;
+    }
+    .left,
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .right p {
+      text-align: right;
+    }
+    .left P {
+      text-align: left;
+    }
+    .left-top h2,
+    .left-bottom h2 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: left;
+      color: #3a7ef8;
+    }
+    .right-top h4,
+    .right-bottom h5 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: right;
+      color: #3a7ef8;
+    }
+    .bottom {
+      width: 25%;
+      margin-left: 37%;
+      margin-top: 45px;
+    }
+    .bottom h6 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      text-align: center;
+      color: #3a7ef8;
+    }
+    .bottom p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: justify;
+      text-align: center;
+    }
+    .bottom Button {
+      margin-left: 21%;
+      margin-top: 30px;
+    }
+    .our-patner {
+      padding: 40px;
+    }
+    .our-patner h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 108%;
+      color: #252525;
+      text-align: center;
+    }
+    .our-blogs {
+      padding: 40px;
+      background: #3a7ef8;
+    }
+    .Blogs {
+      display: flex;
+      gap: 10px;
+    }
+    .Blogs img:hover {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+    .our-blogs h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .our-blogs p {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: white;
+    }
+    .inner-card {
+      box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)";
+      transform: scale(1.02);
+    }
+  }
+  

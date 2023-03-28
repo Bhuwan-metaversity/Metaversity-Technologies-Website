@@ -74,9 +74,9 @@ const FooterDetails = () => {
           Metaversity Technologies
         </Typography>
         {[
-          "About Us",
-          "Contact Us",
-          "Terms & Conditions",
+          <Link to="/AboutUs" style={{color:"white"}}>About Us</Link>,
+            <Link to="/Contact-us" style={{color:"white"}}>Contact Us</Link>,
+            "Terms & Conditions",
           "Privacy Policy",
           "Sitemap",
         ].map((item) => (

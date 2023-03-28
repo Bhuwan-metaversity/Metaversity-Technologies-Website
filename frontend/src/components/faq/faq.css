@@ -1,0 +1,165 @@
+.expanded-head{
+    background: #C9DCFF !important;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+.MuiAccordionSummary-expandIconWrapper.css-yw020d-MuiAccordionSummary-expandIconWrapper {
+    position: absolute;
+    right: 20px;
+}
+.asked-question {
+    margin-inline: 3%;
+  margin: 50px 0px 20px 0px;
+}
+.asked-question h1{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 108%;
+text-align: center;
+color: #252525;
+}
+.css-1fjvggn-MuiPaper-root-MuiAccordion-root:not(:last-child) {
+    border-bottom: 0;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {  
+    .asked-question {
+        margin-inline: 3%;
+        padding: unset;
+        margin: 30px 10px 20px 10px;
+    }
+    .expanded-head {
+        background: #C9DCFF !important;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: unset;
+    }
+    .asked-question h1{
+        font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 108%;
+    text-align: center;
+    margin-bottom: 30px 15px 30px 15px;
+    color: #252525;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .asked-question {
+        margin-inline: 3%;
+        padding: unset;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .asked-question h1 {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 108%;
+        text-align: center;
+        color: #252525;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .expanded-head{
+        background: #C9DCFF !important;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .MuiAccordionSummary-expandIconWrapper.css-yw020d-MuiAccordionSummary-expandIconWrapper {
+        position: absolute;
+        right: 20px;
+    }
+    .asked-question {
+    margin: 40px 20px 20px 20px;
+        padding: unset;
+    }
+    .asked-question h1{
+        font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 108%;
+    text-align: center;
+    color: #252525;
+    }
+    .css-1fjvggn-MuiPaper-root-MuiAccordion-root:not(:last-child) {
+        border-bottom: 0;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1260px) {
+    .expanded-head{
+        background: #C9DCFF !important;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .MuiAccordionSummary-expandIconWrapper.css-yw020d-MuiAccordionSummary-expandIconWrapper {
+        position: absolute;
+        right: 20px;
+    }
+    .asked-question {
+    margin: 40px 20px 20px 20px;
+        padding: unset;
+    }
+    .asked-question h1{
+        font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 108%;
+    text-align: center;
+    color: #252525;
+    }
+    .css-1fjvggn-MuiPaper-root-MuiAccordion-root:not(:last-child) {
+        border-bottom: 0;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .expanded-head{
+        background: #C9DCFF !important;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .MuiAccordionSummary-expandIconWrapper.css-yw020d-MuiAccordionSummary-expandIconWrapper {
+        position: absolute;
+        right: 20px;
+    }
+    .asked-question {
+        margin-inline: 3%;
+    }
+    .asked-question h1{
+        font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 108%;
+    text-align: center;
+    color: #252525;
+    }
+    .css-1fjvggn-MuiPaper-root-MuiAccordion-root:not(:last-child) {
+        border-bottom: 0;
+        margin-bottom: 10px;
+    }
+}

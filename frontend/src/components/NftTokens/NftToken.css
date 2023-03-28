@@ -1,0 +1,493 @@
+.cardHolder {
+    display: grid;
+    grid: 133px/ auto auto auto auto auto auto ;
+    padding: 50px;
+    background: #edf3ff;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 13px 0px;
+}
+.token-development,.nft-development-service {
+    background-color: #edf3ff;
+    padding: 50px;
+}
+.token-development h1,.nft-development-service h1{
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+text-align: center;
+margin-bottom: unset;
+color: #252525;
+}
+.token-development .p1,.nft-development-service .p1{
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-top: 20px;
+text-align: center;
+color: #18191B;
+}
+.cardHolder:hover{
+    box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)",
+}
+.card1{
+  width:50% !important; 
+  background: #edf3ff;
+  margin: auto;
+}
+.nft-tokens:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+.nft-tokens img{
+    box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+    border-radius: 50px;
+}
+.nft-service-card{
+    display: grid;
+    grid: 158px/ auto auto auto auto  ;
+    padding: 50px;
+    background: #edf3ff;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 13px 0px;
+}
+.nft-card{
+height: 150px;
+text-align: -webkit-center;
+}
+.nft-development-service button{
+ margin-left: 42%;
+}
+.title{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+text-align: center;
+color: #252525;
+margin-top: 10px;
+}
+@media screen and (max-width: 480px) {
+    .token-development{
+margin-top: 40px;
+    }
+    .nft-service-card{
+        display: grid;
+        grid: 10px/ auto auto auto auto  ;
+        padding: 0px;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0px 0px;
+    }
+    .token-development,.nft-development-service {
+        background-color: #edf3ff;
+        padding: unset;
+        padding: 30px 0px 30px 0px;
+        margin-top: 30px;
+    }
+    .cardHolder{
+        grid: unset;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: unset;
+        padding: unset;
+        margin-top: unset
+    }
+    .cardHolder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .nft-tokens {
+        margin: 12px 25px;
+    }
+    .nft-service-card {
+        display: grid;
+        grid: 150px/ auto auto;
+        padding: 0px;
+        margin-top: 30px;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0px 0px;
+    }
+    .nft-develoipment-process {
+        margin-inline: 3%;
+        padding: unset;
+        margin-top: 40px;
+    }
+    .nft-develoipment-process h1 {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 20px;
+        text-align: center;
+        color: #252525;
+    }
+    .token-development h1,.nft-development-service h1{
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: unset;
+        color: #252525;
+        }
+        .token-development .p1,.nft-development-service .p1{
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            margin-top: 20px;
+            text-align: center;
+            color: #18191B;
+            }
+            .nft-development-service button{
+                margin-left: 50%;
+                transform: translate(-50%);
+                margin-top: 30px;
+               }
+               .nft-tokens img {
+                box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+                border-radius: 50%;
+            }
+            .nft-tokens img {
+                box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+                border-radius: 50%;
+                width: 103px;
+                margin: auto;
+            }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .token-development{
+        margin-top: 40px;
+            }
+            .nft-service-card{
+                display: grid;
+                grid: 10px/ auto auto auto auto  ;
+                padding: 0px;
+                background: #edf3ff;
+                align-items: center;
+                justify-content: space-evenly;
+                gap: 0px 0px;
+            }
+            .token-development,.nft-development-service {
+                background-color: #edf3ff;
+                padding: unset;
+                padding: 30px 0px 30px 0px;
+                margin-top: 30px;
+            }
+            .cardHolder{
+                grid: unset;
+                background: #edf3ff;
+                align-items: center;
+                justify-content: space-evenly;
+                gap: unset;
+                padding: unset;
+                margin-top: unset
+            }
+            .cardHolder {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .card1 {
+                width: 30% !important;
+                background: #edf3ff;
+                margin: auto;
+            }
+            .nft-tokens {
+                margin: 12px 25px;
+            }
+            .nft-service-card {
+                display: grid;
+                grid: 150px/ auto auto auto;
+                padding: 0px;
+                margin-top: 30px;
+                background: #edf3ff;
+                align-items: center;
+                justify-content: space-evenly;
+                gap: 0px 0px;
+            }
+            .nft-develoipment-process {
+                margin-inline: 3%;
+                padding: unset;
+                margin-top: 40px;
+            }
+            .nft-develoipment-process h1 {
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 500;
+                margin-bottom: 15px;
+                font-size: 20px;
+                text-align: center;
+                color: #252525;
+            }
+            .token-development h1,.nft-development-service h1{
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: unset;
+                color: #252525;
+                }
+                .token-development .p1,.nft-development-service .p1{
+                    font-family: 'Space Grotesk';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    margin-top: 20px;
+                    text-align: center;
+                    color: #18191B;
+                    }
+                    .nft-development-service button{
+                        margin-left: 50%;
+                        transform: translate(-50%);
+                        margin-top: 30px;
+                       }
+                       .nft-tokens img {
+                        box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+                        border-radius: 50%;
+                    }
+                    .nft-tokens img {
+                        box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+                        border-radius: 50%;
+                        width: 103px;
+                        margin: auto;
+                    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cardHolder {
+        display: grid;
+        grid: 133px/ auto auto auto ;
+        padding: unset;
+        padding-top: 20px;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 13px 0px;
+    }
+    .token-development,.nft-development-service {
+        background-color: #edf3ff;
+        padding: 22px;
+    }
+    .token-development h1,.nft-development-service h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: unset;
+    color: #252525;
+    }
+    .token-development .p1,.nft-development-service .p1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    color: #18191B;
+    }
+    .cardHolder:hover{
+        box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)",
+    }
+    .card1{
+      width:50% !important; 
+      background: #edf3ff;
+      margin: auto;
+    }
+    .nft-tokens:hover {
+        transform: scale(1.2);
+        transition: all .5s;
+    }
+    .nft-tokens img{
+        box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+        border-radius: 50px;
+    }
+    .nft-service-card{
+        display: grid;
+        grid: 158px/ auto auto auto auto  ;
+        padding: unset;
+        margin-top: 20px;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 13px 0px;
+    }
+    .nft-card{
+    height: 150px;
+    text-align: -webkit-center;
+    }
+    .nft-development-service button{
+     margin-left: 42%;
+    }
+    .title{
+        font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #252525;
+    margin-top: 10px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .cardHolder {
+        display: grid;
+        grid: 133px/ auto auto auto ;
+        padding: unset;
+        padding-top: 20px;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 13px 0px;
+    }
+    .token-development,.nft-development-service {
+        background-color: #edf3ff;
+        padding: 22px;
+    }
+    .token-development h1,.nft-development-service h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: unset;
+    color: #252525;
+    }
+    .token-development .p1,.nft-development-service .p1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    color: #18191B;
+    }
+    .cardHolder:hover{
+        box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)",
+    }
+    .card1{
+      width:50% !important; 
+      background: #edf3ff;
+      margin: auto;
+    }
+    .nft-tokens:hover {
+        transform: scale(1.2);
+        transition: all .5s;
+    }
+    .nft-tokens img{
+        box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+        border-radius: 50px;
+    }
+    .nft-service-card{
+        display: grid;
+        grid: 158px/ auto auto auto auto  ;
+        padding: unset;
+        margin-top: 20px;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 13px 0px;
+    }
+    .nft-card{
+    height: 150px;
+    text-align: -webkit-center;
+    }
+    .nft-development-service button{
+     margin-left: 42%;
+    }
+    .title{
+        font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #252525;
+    margin-top: 10px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .cardHolder {
+        display: grid;
+        grid: 133px/ auto auto auto auto auto auto ;
+        padding: 50px;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 13px 0px;
+    }
+    .token-development,.nft-development-service {
+        background-color: #edf3ff;
+        padding: 50px;
+    }
+    .token-development h1,.nft-development-service h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: unset;
+    color: #252525;
+    }
+    .token-development .p1,.nft-development-service .p1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    color: #18191B;
+    }
+    .cardHolder:hover{
+        box-shadow: "0px 4px 10px rgba(58, 126, 248, 0.5)",
+    }
+    .card1{
+      width:50% !important; 
+      background: #edf3ff;
+      margin: auto;
+    }
+    .nft-tokens:hover {
+        transform: scale(1.2);
+        transition: all .5s;
+    }
+    .nft-tokens img{
+        box-shadow: 5px 5px 17px #c7c2bd, -5px -5px 17px #ffffff;
+        border-radius: 50px;
+    }
+    .nft-service-card{
+        display: grid;
+        grid: 158px/ auto auto auto auto  ;
+        padding: 50px;
+        background: #edf3ff;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 13px 0px;
+    }
+    .nft-card{
+    height: 150px;
+    text-align: -webkit-center;
+    }
+    .nft-development-service button{
+     margin-left: 42%;
+    }
+    .title{
+        font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #252525;
+    margin-top: 10px;
+    }
+}

@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import TopServices from "../components/TopServices"
 import Vertical2by2Slider from "../components/vertical2by2AutoSlider"
 import Industries from "../components/Industies"
@@ -11,14 +10,17 @@ import RequestCallButton from "../components/requestCallButton"
 import { motion } from "framer-motion"
 import { PlayArrow } from "@mui/icons-material"
 import FooterDetails from "../components/FooterDetails"
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import Seo from "../components/seo";
 
-const IndexPage = ({ data }) => {
+
+
+const IndexPage = ({ data, location }) => {
   const { allStrapiHeroBanner, strapiBackground } = data
   const [hovered, setHovered] = useState(false)
+  
   const theme = useTheme()
   return (
-    <Layout>
+    <Layout location={location}>
       <Seo seo={{ metaTitle: "Home" }} />
       <main>
         <Vertical2by2Slider
@@ -60,7 +62,7 @@ const IndexPage = ({ data }) => {
                 <GatsbyImage
                   // fadeIn
                   // objectFit={"contain"}
-                  // imgStyle={{ objectFit: "contain" }}
+                  imgStyle={{ objectFit: "contain" }}
                   style={{ width: "50vw", marginTop: "auto" }}
                   alt="hero"
                   // fluid={banner.hero_cover.localFile.childImageSharp.fluid}
@@ -222,6 +224,7 @@ const IndexPage = ({ data }) => {
     </Layout>
   )
 }
+
 export const query = graphql`
   query IndexPage {
     allStrapiHeroBanner {

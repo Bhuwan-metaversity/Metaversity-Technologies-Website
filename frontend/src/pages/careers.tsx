@@ -1,24 +1,36 @@
-import React, { useState } from "react";
-import applyImg from "../../static/image.png";
-import "../components/careers.css";
-import { color } from "@mui/system";
-import DrawerAppBar from "../components/header";
+import React, { useEffect, useState } from "react";
+// import Applynow from  "../images/applyNow.png"
+import "../styles/careers.css";
 import Layout from "../components/layout";
-import { Toolbar } from "@mui/material";
 import FooterDetails from "../components/FooterDetails";
 import JobCard from "../components/careers/jobCard";
 import { graphql } from "gatsby";
 import Modalpopup from "../components/modal/Modalpopup";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Modal from "../components/modal/Modalpopup";
-import Jobdeatils from "../components/jobDeatils/Jobdeatils";
+import AOS from "aos"
+// import "aos/dist/aos.css"
+import { StaticImage } from "gatsby-plugin-image";
+import Seo from "../components/seo";
 
-const Careers = ({ data }) => {
+
+
+const Careers = ({ data, location }) => {
   const [open, setOpen] = useState(false);
   console.log(data, "dasdfasdfasdfata");
   const { allStrapiJob } = data;
+
+  function setAnimation(){
+    useEffect(()=>{
+      AOS.init({duration:2000})
+    },[])
+  }
+
+
+
+
+
   return (
-    <Layout>
+    <Layout location={location} >
+       <Seo seo={{metaTitle:"Careers"}} />
       <div className="div1">
         <div className="container">
           <div className="herobanner">
@@ -38,7 +50,7 @@ const Careers = ({ data }) => {
             </div>
             <div className="per40">
               <div className="imgWrapper">
-                <img src={applyImg} className="img2" />
+                <StaticImage alt="bg" src={"../images/applyNow.png"} width={1000} className="img2" />
               </div>
             </div>
           </div>
@@ -54,20 +66,20 @@ const Careers = ({ data }) => {
           </h2>
           <br />
           <div className="outer-box">
-            <p className="p1">5 Days a Week</p>
-            <p className="p2">Employee First</p>
-            <p className="p3">Rewards & Bemefits</p>
-            <p className="p4">Medical Insurance</p>
-            <p className="p5">Learning Sessions</p>
-            <p className="p6">Leaves Encashment</p>
-            <p className="p7">Positive Environment</p>
-            <p className="p8">Groundbreaking Projects</p>
-            <p className="p9">Referral Program</p>
+            <p className="p1" id="work-culter" >5 Days a Week</p>
+            <p className="p2" id="work-culter">Employee First</p>
+            <p className="p3" id="work-culter">Rewards & Bemefits</p>
+            <p className="p4" id="work-culter">Medical Insurance</p>
+            <p className="p5" id="work-culter">Learning Sessions</p>
+            <p className="p6" id="work-culter">Leaves Encashment</p>
+            <p className="p7" id="work-culter">Positive Environment</p>
+            <p className="p8" id="work-culter">Groundbreaking Projects</p>
+            <p className="p9" id="work-culter">Referral Program</p>
           </div>
         </div>
       </div>
 
-      <div className="div3">
+      <div className="div3" >
         <h1>
           Become a part of our big family to inspire and get inspired by <br />
           <span style={{ color: "#3A7EF8" }}>professional experts.</span>
@@ -94,12 +106,14 @@ const Careers = ({ data }) => {
     </Layout>
   );
 };
+
+
 export const query = graphql`
   query Careers {
     allStrapiJob {
       nodes {
         workType
-        slug
+          slug
         id
         vacancy
         jobType
@@ -109,4 +123,7 @@ export const query = graphql`
     }
   }
 `;
+
+
+
 export default Careers;
