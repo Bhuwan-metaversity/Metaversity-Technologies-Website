@@ -3338,9 +3338,13 @@
       .hero-slider-token img {
         padding: 5px;
         height: 123px;
-        width: 80px;
+        width: 123px !important;
         cursor: pointer;
         transition: all 0.5s;
+      }
+      .hero-right-side Video{
+        height: 500px;
+        margin: auto;
       }
       .Principles {
         margin-inline: 3%;

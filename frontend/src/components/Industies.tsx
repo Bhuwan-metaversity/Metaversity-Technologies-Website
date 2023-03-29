@@ -34,7 +34,7 @@ function Industies() {
         Industries
       </Typography>
       {/* <Box display=" grid" gridTemplateColumns="repeat(3, 1fr)" gap="32px">*/}
-      <Grid container gap={4} mb={7}>
+      <Grid container gap={5} mb={7}>
         {allStrapiIndustry.edges.map(({ node: { id, name, coverSquare } }) => (
           <Grid
             item

@@ -1,14 +1,14 @@
-
-/* Slideshow */
-
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  height: 650px;
+  /* height: 700px; */
+  height: auto;
   max-width: 100%;
   margin-top: 30px;
+  
 }
+
 @media screen and (max-width: 600px) {
   .slideshow{
     height: 222px !important;
@@ -21,7 +21,7 @@
   width: 100%;
 }
 .slide {
-  height: 640px;
+height: auto;
   display: block;
   width: 100vw;
   border-radius: 40px;

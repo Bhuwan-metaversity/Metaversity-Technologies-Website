@@ -5,6 +5,7 @@ import { graphql, Link, useStaticQuery } from "gatsby";
 import React from "react";
 import { GatsbyImage } from "gatsby-plugin-image";
 import Fade from 'react-reveal/Fade';
+import "../components/TopServices.css"
 
 function TopServices() {
   const { allStrapiArticle } = useStaticQuery(graphql`
@@ -42,11 +43,12 @@ function TopServices() {
   const media = useMediaQuery("(min-width:600px)");
   return (
 
-    <Box id="top">
+    <Box id="top" mr={4} >
       <Typography
         variant="h3"
         // sx={{ fontSize: "40px", fontWeight: 500 }}
-        m={2}
+        mt={-5}
+       
         textAlign={"center"}
       >
         Our Top Services
@@ -58,6 +60,7 @@ function TopServices() {
             // display={"flex"}
             flexDirection={index % 2 === 0 ? "row" : "row-reverse"}
             flex={1}
+            mr={0}
             sx={{
               display: { xs: "block", md: "flex" },
             }}
@@ -71,7 +74,7 @@ function TopServices() {
                 style={{
                   flex: 1,
                   // aspectRatio: "15/10",
-                  width: media ? "42.5vw" : "85vw",
+                  width: media ? "42.5vw" : "100vw",
                   borderRadius: "24px",
                 }}
               />

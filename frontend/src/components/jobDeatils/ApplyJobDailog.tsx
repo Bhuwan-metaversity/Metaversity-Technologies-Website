@@ -22,9 +22,7 @@ export function ApplyJobDailog({ open, handleClose }) {
       onClose={handleClose}
       aria-labelledby="responsive-dialog-title"
     >
-      <DialogTitle id="responsive-dialog-title">
-        {/* <h1>APPLY FOR JOB :</h1> */}
-      </DialogTitle>
+      <DialogTitle id="responsive-dialog-title"></DialogTitle>
       <DialogContent>
         <DialogContentText>
           <div className="popUpcontainer">
@@ -164,8 +162,6 @@ export function ApplyJobDailog({ open, handleClose }) {
                       {" "}
                       hr@metaversitytechnologies.com
                     </span>
-                    {/* hr@metaversitytechnologies.com */}
-                    {/* </a> */}
                   </p>
                 </div>
                 <div
@@ -186,9 +182,6 @@ export function ApplyJobDailog({ open, handleClose }) {
         <Button autoFocus onClick={handleClose}>
           Close
         </Button>
-        {/* <Button onClick={handleClose} autoFocus>
-         Agree
-        </Button> */}
       </DialogActions>
     </Dialog>
   );

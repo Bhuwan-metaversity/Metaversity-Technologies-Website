@@ -15,7 +15,6 @@ const contactUs = ({location}) => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [number, setNumber] = useState("");
-  //console.log(name)
 
   const { allStrapiArticle } = useStaticQuery(graphql`
     query {

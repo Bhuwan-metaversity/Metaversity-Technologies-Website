@@ -2,8 +2,6 @@ import { Button } from "@mui/material";
 import { Link } from "gatsby";
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
-// import {Link} from "react-router-dom"
-// import PopUp from "../PopUp";
 import Jobdeatils from "../jobDeatils/Jobdeatils";
 
 

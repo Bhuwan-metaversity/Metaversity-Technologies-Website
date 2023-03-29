@@ -33,7 +33,7 @@ const Services = ({location}) => {
       <Seo seo={{metaTitle:"Services"}} />
    
         <div className="nft-hero-section-container">
-          <img src={nft_hero_bannner} />
+          {/* <img src={nft_hero_bannner} /> */}
         </div>
         <div className="nft-development">
           <div className="wraper">
@@ -60,7 +60,7 @@ const Services = ({location}) => {
 
             <Fade right>
             <div className="nft-development-right-side">
-              <img src={nft_development_service} />
+              <img alt="nftService" src={nft_development_service} />
             </div>
             </Fade>
           </div>
@@ -69,7 +69,7 @@ const Services = ({location}) => {
         <div className="why-to-choose-nft">
           <Fade left>
           <div className="left-side">
-            <img src={nft_img} />
+            <img alt="nftImg" src={nft_img} />
           </div>
           </Fade>
           <Fade right>
@@ -114,7 +114,7 @@ const Services = ({location}) => {
           <Flip left>
             <div className="card">
           
-              <img src={uniqness_img} />
+              <img alt="uniqness" src={uniqness_img} />
               <h1>Uniqueness</h1>
               <div className="inner-card">
                 <p>
@@ -129,7 +129,7 @@ const Services = ({location}) => {
            
             <Flip left>
             <div className="card">
-              <img src={royality_img} />
+              <img alt="royality" src={royality_img} />
               <h1>Resale and Royalty</h1>
               <p>
                 Create non-fungible token to enable 100% transparency in the
@@ -140,7 +140,7 @@ const Services = ({location}) => {
             </Flip>
             <Flip right>
             <div className="card">
-              <img src={permanance_img} />
+              <img alt="permanance" src={permanance_img} />
               <h1>Permanence</h1>
               <p>
                 Given that NFT development takes place on a blockchain platform,
@@ -213,7 +213,7 @@ const Services = ({location}) => {
               </div>
             </div>
             <div className="middle">
-              <img src={Download_img} />
+              <img alt="download" src={Download_img} />
             </div>
             <div className="right">
               <div className="right-top">
@@ -282,10 +282,12 @@ const Services = ({location}) => {
 
           <Marquee direction="left" style={{ height: "auto" }}>
             {" "}
-            <img src={Patners1} style={{ height: "100px" }} />{" "}
+            <img alt="patners" src={Patners1} style={{ height: "100px" }} />{" "}
+            <img alt="patners" src={Patners1} style={{ height: "100px" }} />
           </Marquee>
           <Marquee direction="right">
-            <img src={Patners2} style={{ height: "100px" }} />
+            <img alt="patners" src={Patners2} style={{ height: "100px" }} />
+            <img alt="patners" src={Patners2} style={{ height: "100px" }} />
           </Marquee>
         </div>
 
@@ -297,7 +299,7 @@ const Services = ({location}) => {
           <div className="Blogs">
             <div className="Blog1">
    
-              <img src={Blog1} />
+              <img alt="blog" src={Blog1} />
               <p>
                 {" "}
                 Unlocking the Potential Of Web 3.0 With An Expert NFT
@@ -307,11 +309,11 @@ const Services = ({location}) => {
             </div>
            
             <div className="Blog2">
-              <img src={Blog2} />
+              <img alt="blog" src={Blog2} />
               <p>Features of the Top NFT Music Marketplace</p>
             </div>
             <div className="Blog3">
-              <img src={Blog3} />
+              <img alt="blog" src={Blog3} />
               <p>The Monetization and Real-World Applications of NFTs</p>
             </div>
           </div>

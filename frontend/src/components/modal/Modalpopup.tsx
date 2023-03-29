@@ -8,15 +8,10 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
-import { Email, Phone } from "@mui/icons-material";
-import { json } from "react-router-dom";
 import "../modal/Modalpopup.css";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
-import { textAlign } from "@mui/system";
 
 function Modalpopup({ open, setOpen }) {
-  //  const [modal,setModal]=useState(false)
-  //    const toggle=()=>setModal(!Modal)
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down("md"));
 
@@ -24,26 +19,15 @@ function Modalpopup({ open, setOpen }) {
     setOpen(false);
   };
 
-  // const [formData, SetFormData] = useState({
-  //   name:"", email:"", message:"" , number:"", file:""
-  // });
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [number, setNumber] = useState("");
   const [file, setFile] = useState<FileList | null>();
 
-
-  // function submitForm(e){
-  //   // console.log(name,email);
-  //   e.preventDefault();
-  // }
-
   return (
     <>
       <Dialog
-        // fullScreen={fullScreen}
         open={open}
         onClose={handleClose}
         aria-labelledby="responsive-dialog-title"
@@ -55,7 +39,6 @@ function Modalpopup({ open, setOpen }) {
           <DialogContentText>
             <div className="popUpcontainer">
               <div className="popUpwrapper">
-
                 <h1
                   style={{
                     height: "auto",
@@ -69,8 +52,6 @@ function Modalpopup({ open, setOpen }) {
                 </h1>
 
                 <form
-                  // onSubmit={submitForm}
-
                   onSubmit={(e) => {
                     e.preventDefault();
 
@@ -91,8 +72,7 @@ function Modalpopup({ open, setOpen }) {
                     if (!name || !email || !number || !message || !file) {
                       alert("All Fields Are Mendatory");
                       return;
-                    } 
-                    
+                    }
 
                     data.append("Name", "ADF");
                     fetch(process.env.STRAPI_API_URL + "api/applied-for-jobs", {
@@ -103,7 +83,7 @@ function Modalpopup({ open, setOpen }) {
                       .then((res) => {
                         console.log(res);
                         if (res?.data) {
-                      alert('Registred Sucessfully')
+                          alert("Registred Sucessfully");
 
                           setOpen(false);
                           setName("");
@@ -166,7 +146,6 @@ function Modalpopup({ open, setOpen }) {
                       placeholder="Upload Resume"
                       name="File"
                       id="resume"
-                      // value={file}
                       onChange={(e) => setFile(e.target.files)}
                     />
                   </div>

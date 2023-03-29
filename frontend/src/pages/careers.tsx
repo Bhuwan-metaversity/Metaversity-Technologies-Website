@@ -93,13 +93,6 @@ const Careers = ({ data, location }) => {
         
         ))
       }
-
-      {/* <JobCard bg={"white"}  setOpen={setOpen}/>
-      <JobCard bg={"#F0F5FF"}  setOpen={setOpen}/>
-      <JobCard bg={"white"}  setOpen={setOpen}/>
-    
-      
-      {/* <Jobdeatils></Jobdeatils> */}
       <Modalpopup open={open} setOpen={setOpen}></Modalpopup>
 
       <FooterDetails></FooterDetails>

@@ -75,7 +75,8 @@ const IndexPage = ({ data, location }) => {
           }
         />
 
-        <Box m={"7.5vw"} mt={6} display="grid" className="playforfun">
+{/* m=7.5 */}
+        <Box m={"3.5vw"} mt={6} display="grid" className="playforfun">
           <Box mb={15} gridArea="1/1">
             <GatsbyImage
               alt="bg"

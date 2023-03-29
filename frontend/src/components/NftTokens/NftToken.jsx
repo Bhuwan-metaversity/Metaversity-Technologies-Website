@@ -7,7 +7,6 @@ const NftToken = (props) => {
       <div className="nft-tokens" >
         {props.img}
         <p className="title">{props.name}</p>
-        {/* style={{marginTop:"auto",fontSize:"16px", textAlign:"center"}} */}
       </div>
     </>
   );

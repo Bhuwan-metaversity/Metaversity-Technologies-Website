@@ -19,7 +19,7 @@ const FooterDetails = () => {
       rowGap={3}
     >
       <Grid item xs={12} lg={3} md={6}>
-        <img src="/meta.png" />
+        <img  alt="meta" src="/meta.png" />
         <Typography fontSize={12} sx={{ opacity: 0.72, mr: "30%", my: 4 }}>
           The Metaverse is a Virtual Universe where users have access to Digital
           Avatars that let them “LIVE” in this Digital World.
@@ -30,26 +30,26 @@ const FooterDetails = () => {
             to="https://www.facebook.com/profile.php?id=100087924176394"
             target={"_blank"}
           >
-            <img src="/fb.png" className="social" />
+            <img src="/fb.png" alt="fb" className="social" />
           </Link>
           <Link
             to="https://www.instagram.com/metaversitytechnologies/"
             target={"_blank"}
           >
             <img
-              src="/insta.png"
+              src="/insta.png" alt="insta"
               className="social"
               style={{ paddingRight: "1px" }}
             />
           </Link>
           <Link to="https://twitter.com/MetaversityTech" target={"_blank"}>
-            <img src="/twitter.png" className="social" />
+            <img src="/twitter.png"  alt="twitter" className="social" />
           </Link>
           <Link
             to="https://www.linkedin.com/company/metaversity-technologies"
             target={"_blank"}
           >
-            <img src="/linkedin.png" className="social" />
+            <img src="/linkedin.png" alt="linkdin" className="social" />
           </Link>
         </Box>
       </Grid>{" "}

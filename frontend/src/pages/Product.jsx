@@ -119,7 +119,7 @@ const Product = ({location}) => {
             <button className="product-page-button">More About Us</button>
           </Link>
         </div>
-        /</Fade>
+        </Fade>
         <Fade right>
         <div className="principleImg">
           <img src={PrincipalImg} />
@@ -221,7 +221,7 @@ const Product = ({location}) => {
                 </div>
               </div>
               <div class="center-logo">
-                <img src={Metaversoity_Logo} alt="logo" />
+                <img src={Metaversoity_Logo} alt="Metaversity_logo" />
               </div>
             </div>
           </section>
@@ -360,7 +360,7 @@ const Product = ({location}) => {
         <Fade left>
           <div className="bdp-contant">
             <div className="anylysis ">
-              <img src="https://res.cloudinary.com/infograinsdevelop/image/upload/v1/media/blockchain_process/Client_e8suso" />
+              <img alt="anylasis" src="https://res.cloudinary.com/infograinsdevelop/image/upload/v1/media/blockchain_process/Client_e8suso" />
               <h1>Analysis of Clients’ Demands</h1>
               <p className="bdp-height">
                 Our team carefully examines the project's needs. They also do a
@@ -368,7 +368,7 @@ const Product = ({location}) => {
               </p>
             </div>
             <div className="develop ">
-              <img src="https://res.cloudinary.com/infograinsdevelop/image/upload/v1/media/blockchain_process/Client_e8suso" />
+              <img alt="develop" src="https://res.cloudinary.com/infograinsdevelop/image/upload/v1/media/blockchain_process/Client_e8suso" />
               <h1>Development and Testing</h1>
               <p className="bdp-height">
                 When our team is certain of the specifications, they begin the
@@ -378,7 +378,7 @@ const Product = ({location}) => {
             </div>
 
             <div className="disining ">
-              <img src="https://res.cloudinary.com/infograinsdevelop/image/upload/v1/media/blockchain_process/Design_pssiqj" />
+              <img alt="disining" src="https://res.cloudinary.com/infograinsdevelop/image/upload/v1/media/blockchain_process/Design_pssiqj" />
               <h1>Designing</h1>
               <p className="bdp-height">
                 Architecture is developed that will demonstrate the workflow of
@@ -387,7 +387,7 @@ const Product = ({location}) => {
               </p>
             </div>
             <div className="development ">
-              <img src="https://res.cloudinary.com/infograinsdevelop/image/upload/v1/media/blockchain_process/dev_kkfgms" />
+              <img alt="development" src="https://res.cloudinary.com/infograinsdevelop/image/upload/v1/media/blockchain_process/dev_kkfgms" />
               <h1>Deployment</h1>
               <p className="bdp-height">
                 This action is taken only when there is approval regarding the

@@ -6,8 +6,6 @@ import MuiAccordionSummary from '@mui/material/AccordionSummary';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import './faq.css'
-// import Zoom from 'react-reveal/Zoom';
-
 
 
 const Accordion = styled((props) => (

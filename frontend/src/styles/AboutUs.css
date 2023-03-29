@@ -83,6 +83,7 @@
 }
 .main-section1-leftSide {
   width: 50%;
+  margin: auto;
 }
 .hero-wrapper2 {
   display: flex;
@@ -192,6 +193,7 @@
 }
 .main-section3 .left-side {
   width: 70%;
+  margin: auto;
 }
 .top-section p {
   height: unset !important;
@@ -363,6 +365,7 @@
   }
   .main-section1-leftSide {
     width: 100%;
+    margin: auto;
   }
   .hero-wrapper2 {
     display: flex;
@@ -670,6 +673,7 @@
       }
       .main-section1-leftSide {
         width: 100%;
+        margin: auto;
       }
       .hero-wrapper2 {
         display: flex;
@@ -782,6 +786,7 @@
       }
       .main-section3 .left-side {
         width: 70%;
+        margin: auto;
         padding-bottom: 0px;
       }
       .main-section3 .left-side .top-section {
@@ -947,6 +952,7 @@
   }
   .main-section1-leftSide {
     width: 100%;
+    margin: auto;
   }
   .hero-wrapper2 {
     display: flex;
@@ -982,7 +988,7 @@
     background: #3a7ef8;
     border-radius: 0px;
     margin-top: 50px;
-    padding: 10px;
+    padding: 30px 10px;
   }
   .main-section2 h1 {
     height: 52px;
@@ -1015,7 +1021,7 @@
     justify-content: space-between;
     display: flex;
     justify-content: center;
-    gap: 10px;
+   gap: 10px;
     width: 100%;
     margin-inline: 0%;
   }
@@ -1024,7 +1030,7 @@
     margin-left: 45px;
   }
   .main-section2-leftDiv {
-    width: 30%;
+    width: 33%;
     background: #ffffff;
     border-radius: 12px;
     padding: 10px;
@@ -1034,7 +1040,7 @@
     transform: scale(1.04);
   }
   .main-section2-midDiv {
-    width: 30%;
+    width: 33%;
     background: #ffffff;
     border-radius: 12px;
     padding: 15px;
@@ -1044,7 +1050,7 @@
     transform: scale(1.04);
   }
   .main-section2-rightDiv {
-    width: 30%;
+    width: 33%;
     background: #ffffff;
     border-radius: 12px;
     padding: 15px;
@@ -1063,6 +1069,7 @@
   .main-section3 .left-side {
     width: 70%;
     display: grid;
+    margin: auto;
   }
   .main-section3 .left-side .top-section {
   }
@@ -1233,6 +1240,7 @@
   }
   .main-section1-leftSide {
     width: 60%;
+    margin: auto;
   }
   .hero-wrapper2 {
     display: flex;
@@ -1510,6 +1518,7 @@
   }
   .main-section1-leftSide {
     width: 60%;
+    margin: auto;
   }
   .main-section1-rightSide {
     width: 40%;
@@ -1631,6 +1640,7 @@
   }
   .main-section3 .left-side {
     width: 70%;
+    margin: auto;
   }
   .main-section3 .left-side .top-section {
   }

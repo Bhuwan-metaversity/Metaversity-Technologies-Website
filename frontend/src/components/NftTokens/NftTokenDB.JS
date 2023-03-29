@@ -55,19 +55,7 @@ export const tokenArr = [
 
 
 
-       //2ND Mathod - rendar data in same file , insted of parents file
-// const MappedTokenCards = ()=>{
-//   return tokenArr.map((e) => {
-//       console.log(e.img);
-
-//       return (
-//         <div className="card1">
-//           <NftToken name={e.name} img={e.img} />
-//         </div>
-//       );
-//     })
-// }
-//  <MappedTokenCards/>
+   
 
   
 export const NftServiceArr=[
@@ -85,8 +73,6 @@ export const NftServiceArr=[
   { name: "Smart_contract", img: <img src={Smart_contract} /> },
   { name: " Nft_Minting", img: <img src={Nft_Minting} /> }
 ]
-
-
 
 
   export default {tokenArr , NftServiceArr }
