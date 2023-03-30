@@ -45,7 +45,7 @@ module.exports = createCoreController(
           }
         );
       } catch (e) {
-        console.log(e);
+        // console.log(e);
       }
       try {
         strapi.plugins["email"].services.email.sendTemplatedEmail(
@@ -58,7 +58,7 @@ module.exports = createCoreController(
           }
         );
       } catch (e) {
-        console.log(e);
+        // console.log(e);
       }
       return response;
     },

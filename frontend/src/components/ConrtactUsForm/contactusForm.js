@@ -74,7 +74,7 @@ const contactusForm = () => {
                     })
                       .then((res) => res.json())
                       .then((res) => {
-                        console.log(res);
+                        // console.log(res);
                         if (res?.data) {
                           alert("Submitted Sucessfully");
 
@@ -92,7 +92,7 @@ const contactusForm = () => {
                         }
                       })
                       .catch((err) => alert(err?.toString()));
-                    console.log(data);
+                    // console.log(data);
                   }}
                 >
                   <div className="top-sections">

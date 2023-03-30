@@ -81,7 +81,7 @@ function Modalpopup({ open, setOpen }) {
                     })
                       .then((res) => res.json())
                       .then((res) => {
-                        console.log(res);
+                        // console.log(res);
                         if (res?.data) {
                           alert("Registred Sucessfully");
 
@@ -100,7 +100,7 @@ function Modalpopup({ open, setOpen }) {
                         }
                       })
                       .catch((err) => alert(err?.toString()));
-                    console.log(data);
+                    // console.log(data);
                   }}
                 >
                   <input

@@ -51,7 +51,7 @@ function RequestCallButton({ isWhite }: { isWhite?: boolean }) {
       })
         .then((res) => res.json())
         .then((res) => {
-          console.log(res);
+          // console.log(res);
           if (res?.data) {
             setOpen(false);
           }

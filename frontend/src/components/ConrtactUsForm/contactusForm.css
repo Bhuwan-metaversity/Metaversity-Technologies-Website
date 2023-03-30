@@ -112,7 +112,7 @@
   margin-top: 20px;
   }
   .right-form button:hover{
-    background-color: #FBB03B;
+    background-color: #FBB03B !important;
     color: #F4F4F4;
   }
   @media only screen and (max-width: 480px) {

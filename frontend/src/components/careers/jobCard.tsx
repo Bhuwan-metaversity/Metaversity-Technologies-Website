@@ -8,14 +8,14 @@ import Jobdeatils from "../jobDeatils/Jobdeatils";
 
 const JobCard = ({setOpen, bg,slug, ...rest}) => {
 // const [open, setOpen] = useState(false);
-console.log(rest)
+// console.log(rest)
   const handleClickOpen = () => {
-    console.log("Clicked")
+    // console.log("Clicked")
     
     setOpen(true);
   };
   // const nav = useNavigate() 
-console.log("slug",slug, rest)
+// console.log("slug",slug, rest)
   return (
     <div className="jd" style={{ background:bg }}>
       <div className="container">

@@ -69,7 +69,7 @@ export function ApplyJobDailog({ open, handleClose }) {
                   })
                     .then((res) => res.json())
                     .then((res) => {
-                      console.log(res);
+                      // console.log(res);
 
                       if (res?.data) {
                         alert("Registred Sucessfully");
@@ -88,7 +88,7 @@ export function ApplyJobDailog({ open, handleClose }) {
                       }
                     })
                     .catch((err) => alert(err?.toString()));
-                  console.log(data);
+                  // console.log(data);
                 }}
               >
                 <input

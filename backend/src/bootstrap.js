@@ -95,7 +95,7 @@ async function createEntry({ model, entry }) {
       data: entry,
     });
   } catch (error) {
-    console.error({ model, entry, error });
+    // console.error({ model, entry, error });
   }
 }
 
@@ -251,11 +251,11 @@ module.exports = async () => {
 
   if (shouldImportSeedData) {
     try {
-      console.log("Setting up the template...");
+      // console.log("Setting up the template...");
       await importSeedData();
-      console.log("Ready to go");
+      // console.log("Ready to go");
     } catch (error) {
-      console.log("Could not import seed data");
+      // console.log("Could not import seed data");
       console.error(error);
     }
   }

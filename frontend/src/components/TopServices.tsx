@@ -40,10 +40,10 @@ function TopServices() {
       }
     }
   `);
-  const media = useMediaQuery("(min-width:600px)");
+  const media = useMediaQuery("(min-width: 600px)");
   return (
 
-    <Box id="top" mr={4} >
+    <Box id="top"  >
       <Typography
         variant="h3"
         // sx={{ fontSize: "40px", fontWeight: 500 }}
@@ -54,7 +54,7 @@ function TopServices() {
         Our Top Services
       </Typography>
       {allStrapiArticle.edges?.map(({ node: item }, index) => {
-        console.log(item);
+        // console.log(item);
         return (
           <Box
             // display={"flex"}
@@ -62,6 +62,7 @@ function TopServices() {
             flex={1}
             mr={0}
             sx={{
+              justifyContent:"center",
               display: { xs: "block", md: "flex" },
             }}
           >
@@ -74,7 +75,7 @@ function TopServices() {
                 style={{
                   flex: 1,
                   // aspectRatio: "15/10",
-                  width: media ? "42.5vw" : "100vw",
+                  width: media ? "42.5vw" : "100%",
                   borderRadius: "24px",
                 }}
               />

@@ -6,7 +6,7 @@ import Jobdeatils from "../components/jobDeatils/Jobdeatils";
 
 
 const JD = ({ data }) => {
-  console.log(data,"template")
+  // console.log(data,"template")
   return (
     <Layout>
 

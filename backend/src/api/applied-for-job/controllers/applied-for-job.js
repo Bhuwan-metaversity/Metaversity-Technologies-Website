@@ -40,7 +40,7 @@ module.exports = createCoreController(
   </strong></p>`,
       };
       const user = response.data.attributes;
-      console.log(response);
+      // console.log(response);
       //   try {
       //     strapi.plugins["email"].services.email.sendTemplatedEmail(
       //       {
@@ -54,9 +54,10 @@ module.exports = createCoreController(
       //   } catch (e) {
       //     console.log(e);
       //   }
-      console.log( _.pick(user, [
-        "Name",
-      ]),"name")
+      
+      // console.log( _.pick(user, [
+      //   "Name",
+      // ]),"name")
       try {
         strapi.plugins["email"].services.email.sendTemplatedEmail(
           {
@@ -74,7 +75,7 @@ module.exports = createCoreController(
           }
         );
       } catch (e) {
-        console.log(e);
+        // console.log(e);
       }
       return response;
     },

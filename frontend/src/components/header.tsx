@@ -35,9 +35,9 @@ const navItems = ["Home", "About", "Contact"];
 export default function DrawerAppBar(props: Props) {
   const [current, setCurrent] = useState(0);
   const theme = useTheme();
-  console.log(theme, "theme");
+  // console.log(theme, "theme");
   const { window, location } = props;
-  console.log(location, "locarion");
+  // console.log(location, "locarion");
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -151,7 +151,7 @@ export default function DrawerAppBar(props: Props) {
       }
     });
   }, [location?.pathname]);
-  console.log(location, "path");
+  // console.log(location, "path");
   return (
     <Box sx={{ display: "flex" }}>
       <AppBar component="nav" elevation={0}>

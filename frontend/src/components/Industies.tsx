@@ -34,7 +34,7 @@ function Industies() {
         Industries
       </Typography>
       {/* <Box display=" grid" gridTemplateColumns="repeat(3, 1fr)" gap="32px">*/}
-      <Grid container gap={5} mb={7}>
+      <Grid container gap={3} mb={4}>
         {allStrapiIndustry.edges.map(({ node: { id, name, coverSquare } }) => (
           <Grid
             item
@@ -45,22 +45,29 @@ function Industies() {
             sx={{
               // height: "27vw",
               width: "auto",
-              aspectRatio: "1/1",
               backgroundClip: "border-box",
               backgroundSize: "cover",
               display: "flex",
               alignItems: "flex-end",
               borderRadius: "16px",
+              justifyContent:"center"
             }}
           >
-                   <Flip right>
+                   <Flip  right>
        
             <GatsbyImage
-              alt={"adsfjka"}
+              alt={"industry"}
               // layout="fill"
               style={{
                 width: "100%",
                 height: "100%",
+                margin:"auto"
+                // marginLeft:"30px"
+                // display:"flex",
+                // justifyContent:"center",
+                // alignItems:"center"
+
+             
               }}
               // objectFit={"fill"}
               image={coverSquare.localFile.childImageSharp.gatsbyImageData}

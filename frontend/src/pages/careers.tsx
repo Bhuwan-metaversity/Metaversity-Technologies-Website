@@ -15,7 +15,7 @@ import Seo from "../components/seo";
 
 const Careers = ({ data, location }) => {
   const [open, setOpen] = useState(false);
-  console.log(data, "dasdfasdfasdfata");
+  // console.log(data, "dasdfasdfasdfata");
   const { allStrapiJob } = data;
 
   function setAnimation(){

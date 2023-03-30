@@ -380,7 +380,7 @@ color: #FFFFFF !important;
   }
   .jd:hover {
     transform: scale(1.02);
-    background-color: #fbb03b;
+    background-color: #fbb03b !important;
   }
   .wrapper {
     display: flex;

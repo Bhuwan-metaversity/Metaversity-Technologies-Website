@@ -165,7 +165,7 @@ const Services = ({location}) => {
           <div className="cardHolder">
       
             {tokenArr.map((e) => {
-              console.log(e.img);
+              // console.log(e.img);
 
               return (
       
@@ -262,7 +262,7 @@ const Services = ({location}) => {
 
           <div className="nft-service-card">
             {NftServiceArr.map((e) => {
-              console.log(e.img);
+              // console.log(e.img);
 
               return (
                 <div className="nft-card">
