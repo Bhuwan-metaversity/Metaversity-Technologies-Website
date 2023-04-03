@@ -30,7 +30,7 @@ const Services = ({location}) => {
   return (
     <>
       <Layout location={location}>
-      <Seo seo={{metaTitle:"Services"}} />
+      <Seo seo={{metaTitle:"Services" , metaDescription:"Embed Sustainability Into Every Area Of Your Business. See How."}} />
    
         <div className="nft-hero-section-container">
           {/* <img src={nft_hero_bannner} /> */}

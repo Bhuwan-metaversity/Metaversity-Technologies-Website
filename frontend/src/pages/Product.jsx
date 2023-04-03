@@ -51,7 +51,7 @@ const Product = ({location}) => {
 
   return (
     <Layout location={location}>
-      <Seo seo={{metaTitle:"Product"}} />
+      <Seo seo={{metaTitle:"Product" , metaDescription:"Transforming Industries with Our Blockchain Solution at Metaversity Technologies."}} />
       <div className="wallet-hero-section">
       <Fade left>
         <div className="hero-left-side">
@@ -233,7 +233,9 @@ const Product = ({location}) => {
         <h2>Professional Blockchain Development Company</h2>
         <h1>You Choose, We Deliver</h1>
 
+
         <div className="deliver-cards">
+      
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front" id="flip-cart1-front">
@@ -252,7 +254,9 @@ const Product = ({location}) => {
                 </div>
               </div>
             </div>
+        
           </div>
+          
 
           <div class="flip-card">
             <div class="flip-card-inner">
@@ -352,7 +356,10 @@ const Product = ({location}) => {
             </div>
           </div>
         </div>
+       
+        
       </div>
+     
 
       <div className="blockchain-development-process">
         <h1>BLOCKCHAIN DEVELOPMENT PROCESS</h1>

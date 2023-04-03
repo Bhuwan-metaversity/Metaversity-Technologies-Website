@@ -10,6 +10,7 @@ import AOS from "aos"
 // import "aos/dist/aos.css"
 import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
+import Fade from 'react-reveal/Fade';
 
 
 
@@ -30,10 +31,12 @@ const Careers = ({ data, location }) => {
 
   return (
     <Layout location={location} >
-       <Seo seo={{metaTitle:"Careers"}} />
+       <Seo seo={{metaTitle:"Careers",metaDescription:"Explore job opportunities at Metaversity Technologies. Join our talent ..."}} />
+
       <div className="div1">
         <div className="container">
           <div className="herobanner">
+          <Fade left>
             <div className="per60">
               <h1>
                 Get The Right <br />
@@ -48,10 +51,13 @@ const Careers = ({ data, location }) => {
                 realtionship.
               </p>
             </div>
+            </Fade>
             <div className="per40">
+            <Fade right>
               <div className="imgWrapper">
                 <StaticImage alt="bg" src={"../images/applyNow.png"} width={1000} className="img2" />
               </div>
+              </Fade>
             </div>
           </div>
         </div>

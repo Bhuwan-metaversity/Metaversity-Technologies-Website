@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
 import Flip from 'react-reveal/Flip';
+import Zoom from 'react-reveal/Zoom';
 
 
 
@@ -53,7 +54,10 @@ function Industies() {
               justifyContent:"center"
             }}
           >
-                   <Flip  right>
+                   {/* <Flip  right> */}
+                   <Zoom >
+
+                 
        
             <GatsbyImage
               alt={"industry"}
@@ -72,7 +76,8 @@ function Industies() {
               // objectFit={"fill"}
               image={coverSquare.localFile.childImageSharp.gatsbyImageData}
             />
-            </Flip>
+            {/* </Flip> */}
+            </Zoom >
     
 
             <Typography

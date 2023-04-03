@@ -31,7 +31,7 @@ const contactUs = ({location}) => {
   return (
     <>
       <Layout location={location}>
-      <Seo seo={{metaTitle:"Contact"}} />
+      <Seo seo={{metaTitle:"Contact" , metaDescription:"Share your business query · We are a BlockChain and ..."}} />
         <div className="contact-caintainer">
           <div className="header-contact-wrapper">
             <div className="contact-hero-section">

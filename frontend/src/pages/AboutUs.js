@@ -15,7 +15,7 @@ import Seo from "../components/seo";
 const AboutUs = ({ location }) => {
   return (
     <Layout location={location}>
-      <Seo seo={{ metaTitle: "About" }} />
+      <Seo seo={{ metaTitle: "About",metaDescription:"Our Leadership - Our History - Facts and Stats - ..." }} />
       <>
         <div className="hero-caintanier1">
           <h1>About Us</h1>

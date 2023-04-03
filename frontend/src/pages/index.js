@@ -21,7 +21,7 @@ const IndexPage = ({ data, location }) => {
   const theme = useTheme()
   return (
     <Layout location={location}>
-      <Seo seo={{ metaTitle: "Home" }} />
+      <Seo seo={{ metaTitle: "Home" ,metaDescription:"Be future-ready with Metaversity Technologies. Get access to a decentralized ecosystem, develop your own NFT marketplace and launch a Metaverse platform."}} />
       <main>
         <Vertical2by2Slider
           timeOut={5000}
